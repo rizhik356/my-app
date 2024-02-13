@@ -1,37 +1,37 @@
 @font-face {
   font-weight: 600;
   font-family: 'Gilroy';
-  src: url("../../my-app/public/fonts/gilroy/Gilroy-Semibold.ttf");
+  src: url("./fonts/gilroy/Gilroy-Semibold.ttf");
 }
 @font-face {
   font-weight: 300;
   font-family: 'Gilroy';
-  src: url("../../my-app/public/fonts/gilroy/Gilroy-Light.ttf");
+  src: url("./fonts/gilroy/Gilroy-Light.ttf");
 }
 @font-face {
   font-weight: 400;
   font-family: 'Gilroy';
-  src: url("../../my-app/public/fonts/gilroy/Gilroy-Light.ttf");
+  src: url("./fonts/gilroy/Gilroy-Light.ttf");
 }
 @font-face {
   font-weight: 500;
   font-family: 'Gilroy';
-  src: url("../../my-app/public/fonts/gilroy/Gilroy-Regular.ttf");
+  src: url("./fonts/gilroy/Gilroy-Regular.ttf");
 }
 @font-face {
   font-weight: 600;
   font-family: 'Neuzeit Grotesk';
-  src: url("../../my-app/public/fonts/neuzeit/NeuzeitGroExt-Bla.ttf");
+  src: url("./fonts/neuzeit/NeuzeitGroExt-Bla.ttf");
 }
 @font-face {
   font-weight: 500;
   font-family: 'Neuzeit Grotesk';
-  src: url("../../my-app/public/fonts/neuzeit/NeuzeitGroCon-Bla.ttf");
+  src: url("./fonts/neuzeit/NeuzeitGroCon-Bla.ttf");
 }
 @font-face {
   font-weight: 700;
   font-family: 'Neuzeit Grotesk';
-  src: url("../../my-app/public/fonts/neuzeit/NeuzeitGro-Bla.ttf");
+  src: url("./fonts/neuzeit/NeuzeitGro-Bla.ttf");
 }
 .root {
   margin-bottom: 50px;
@@ -87,7 +87,7 @@ ul li {
   background-image: linear-gradient(rgba(11, 11, 11, 0.1), rgba(255, 255, 255, 0.1));
 }
 .preview_background {
-  background-image: url('../../my-app/public/img/main_img.png');
+  background-image: url('./img/main_img.png');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
@@ -167,13 +167,13 @@ ul li {
   margin: 0;
 }
 .icon-1 {
-  background-image: url("../../my-app/public/img/Icon-1.png");
+  background-image: url("./img/Icon-1.png");
 }
 .icon-2 {
-  background-image: url("../../my-app/public/img/Icon-2.png");
+  background-image: url("./img/Icon-2.png");
 }
 .icon-3 {
-  background-image: url("../../my-app/public/img/Icon-3.png");
+  background-image: url("./img/Icon-3.png");
 }
 .frame_border {
   height: 118px;
@@ -205,7 +205,7 @@ ul li {
 .logo_white {
   width: 74px;
   height: 14px;
-  background-image: url("../../my-app/public/img/logo-white\ 1.png");
+  background-image: url("./img/logo-white\ 1.png");
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
@@ -241,21 +241,21 @@ ul li {
   background-color: transparent;
 }
 .left_slider:hover {
-  background-image: url("../../my-app/public/img/slider/Arrow_Left-hover.png");
+  background-image: url("./img/slider/Arrow_Left-hover.png");
   transition: 0.6s;
 }
 .right_slider:hover {
-  background-image: url("../../my-app/public/img/slider/Arrow_Right-hover.png");
+  background-image: url("./img/slider/Arrow_Right-hover.png");
   transition: 0.6s;
 }
 .left_slider {
-  background-image: url('../../my-app/public/img/slider/Arrow_Left.png');
+  background-image: url('./img/slider/Arrow_Left.png');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 .right_slider {
-  background-image: url("../../my-app/public/img/slider/Arrow_Right.png");
+  background-image: url("./img/slider/Arrow_Right.png");
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
@@ -394,7 +394,7 @@ ul li {
 .text_time_icon {
   height: 24px;
   width: 24px;
-  background-image: url("../../my-app/public/img/icon-timer.png");
+  background-image: url("./img/icon-timer.png");
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
@@ -476,13 +476,13 @@ ul li {
   gap: 8px;
 }
 .music {
-  background: url("../../my-app/public/img/frame_music.png");
+  background: url("./img/frame_music.png");
   background-size: 24px 24px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .store {
-  background: url("../../my-app/public/img/frame_store.png");
+  background: url("./img/frame_store.png");
   background-size: 24px 24px;
   background-position: center;
   background-repeat: no-repeat;
@@ -561,7 +561,7 @@ ul li {
 .shipping_icon {
   width: 28px;
   height: 28px;
-  background-image: url("../../my-app/public/img/shipping.png");
+  background-image: url("./img/shipping.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -588,7 +588,7 @@ ul li {
   height: 2px;
   border-radius: 2px;
   border-color: none;
-  background-image: url("../../my-app/public/img/Vector-close.png");
+  background-image: url("./img/Vector-close.png");
   background-size: cover;
   background-position: center;
 }
@@ -604,7 +604,7 @@ ul li {
 .button_inner_open {
   width: 16px;
   height: 16px;
-  background-image: url("../../my-app/public/img/Vector.png");
+  background-image: url("./img/Vector.png");
   background-size: cover;
   background-position: center;
 }
@@ -665,7 +665,7 @@ ul li {
 .reviev_icon {
   width: 36px;
   height: 36px;
-  background-image: url('../../my-app/public/img/youtube.png');
+  background-image: url('./img/youtube.png');
   background-size: 36px 25.34px;
   background-position: center;
   background-repeat: no-repeat;

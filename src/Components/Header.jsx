@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from '../img/Logo.png'
 
 const Header = () => (
     <>
@@ -6,7 +7,7 @@ const Header = () => (
             <h1 className="">Flash Sale in 'Country': Free 2-3 Day express delivery!</h1>
         </div>
         <header className="d-flex justify-content-between align-items-center">
-            <img className="logo align-self-end" src="./img/Logo.png" alt="" />
+            <img className="logo align-self-end" src={Logo} alt="" />
             <nav>
                 <ul className="d-flex justify-content-end align-items-end">
                     <li>
